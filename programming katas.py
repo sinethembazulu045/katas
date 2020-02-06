@@ -71,6 +71,16 @@ def concanetion():
     print(stored_list)
 concanetion()
 
+#Frame some text
+sentence =input("ente your sentence")
+def FrameText(words):
+    wordlength = len(max(words,key =len))
+    print( '*' *(wordlength+4))
+    for word in words:
+        print('* {a:{b}} *'.format(a=word, b=wordlength))
+    print('*' * (wordlength +4))
+FrameText(sentence.split(" "))
+
 
 
 
