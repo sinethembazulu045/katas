@@ -15,8 +15,18 @@ evenOrOdd()
 # Drawing a square
 
 def square():
-    size =int(input("enter a size number"))
+    size = int(input("enter a size number"))
     for i in range(size):
         print ('#' * size)
 square()
+
+#Drawing a right angle triangle
+
+def right_angle_triangle():
+    num = int(input("number of raws: "))
+    for i in range( num):
+        for j in range( i+1):
+            print("#", end ="")
+        print("")
+right_angle_triangle()
 
