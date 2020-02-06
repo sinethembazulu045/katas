@@ -30,3 +30,11 @@ def right_angle_triangle():
         print("")
 right_angle_triangle()
 
+#drawing iscosceles triangle
+def iscoscelsTri():
+    num = int(input("number of raws: "))
+    for i in range(1,num+1):
+        print((num-i) * ' '+ i *'# ')
+iscoscelsTri()
+
+
