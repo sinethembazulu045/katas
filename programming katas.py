@@ -53,6 +53,24 @@ def Longestword(word):
             print(list_word)
 Longestword(input('enter your sentence'))
 
+# concanetion of lists
+def concanetion():
+    list1 =[]
+    list2 =[]
+    orderlist1 = input("enter your orderedlist1").split(" ")
+    list1 = orderlist1
+
+    orderlist2 = input("enter your orderedlist2").split(" ")
+    list2 = orderlist2
+    
+    i = len(list1)
+    stored_list =[]
+    for j in range(i):
+        stored_list.append(list1[j])
+        stored_list.append(list2[j])
+    print(stored_list)
+concanetion()
+
 
 
 
