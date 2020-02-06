@@ -37,4 +37,22 @@ def iscoscelsTri():
         print((num-i) * ' '+ i *'# ')
 iscoscelsTri()
 
+#finding the longest string in an array/lius
+def Longestword(word):
+    print("longest word:")
+    words = list(word.split(" "))
+    lenght =[]
+    for i in words:
+        lenght.append(len(i))
+    LongestString = max(lenght)
+    returnlist = []
+    for j in words:
+        if len(j)==LongestString:
+            returnlist.append(j)
+            list_word = j
+            print(list_word)
+Longestword(input('enter your sentence'))
+
+
+
 
