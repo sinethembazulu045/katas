@@ -1,0 +1,11 @@
+
+#square
+
+def square(num):
+    hash_row = ' '
+    for row in range( num):
+        for column in range(num):
+            print('#', end ="")
+        print()
+    return hash_row
+print(square(3))
